@@ -117,7 +117,7 @@ export default function TransportAgregatePage() {
 
                     {/* Oferta 50% (Cross-Selling) */}
                     <div className="bg-yellow-50 border-2 border-dashed border-yellow-400 p-6 rounded-2xl text-center">
-                        <h4 className="font-bold text-slate-900 text-lg mb-2">🚚 Pachetul Complet: Săpătură + Evacuare</h4>
+                        <h4 className="font-bold text-slate-900 text-lg mb-2">Pachetul Complet: Săpătură + Evacuare</h4>
                         <p className="text-slate-700 mb-2">
                             Ai nevoie de săpături pentru o fundație și trebuie să evacuezi pământul?
                         </p>
@@ -136,9 +136,10 @@ export default function TransportAgregatePage() {
                     <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href={`tel:${phoneNumber}`}
-                            className="bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-bold py-4 px-8 rounded-xl text-center text-lg transition-all shadow-md"
+                            className="bg-yellow-500 hover:bg-yellow-600 text-slate-900 py-3 px-6 md:py-4 md:px-8 rounded-xl transition-all shadow-md flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2"
                         >
-                            Comandă Agregate: {displayPhone}
+                            <span className="font-bold text-base md:text-lg">Află Prețul pe Cursă:</span>
+                            <span className="font-black text-xl md:text-xl whitespace-nowrap">{displayPhone}</span>
                         </a>
                         <a
                             href={`https://wa.me/${whatsappNumber}`}

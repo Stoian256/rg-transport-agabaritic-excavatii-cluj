@@ -74,7 +74,7 @@ export default function Home() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-slate-900 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
-                  Capacitate: 26 Tone
+                  26 Tone
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-2 text-slate-800">Platformă MAN</h3>
@@ -97,7 +97,7 @@ export default function Home() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-slate-900 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
-                  Capacitate: 5 Tone
+                  5 Tone
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-2 text-slate-800">Excavator CAT</h3>
@@ -120,7 +120,7 @@ export default function Home() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-slate-900 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
-                  Capacitate: 7.5 Tone
+                  7.5 Tone
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-2 text-slate-800">Basculantă Mercedes</h3>

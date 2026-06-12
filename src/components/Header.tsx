@@ -25,7 +25,7 @@ export default function Header() {
                         <Link href="/" className="hover:text-yellow-500 transition-colors font-medium">Acasă</Link>
                         <Link href="/servicii/transport-agabaritic" className="hover:text-yellow-500 transition-colors font-medium">Transport Agabaritic</Link>
                         <Link href="/servicii/excavatii-cat" className="hover:text-yellow-500 transition-colors font-medium">Excavații CAT</Link>
-                        <Link href="/servicii/transport-agregate" className="hover:text-yellow-500 transition-colors font-medium">Prestări servicii transport basculantă</Link>
+                        <Link href="/servicii/transport-agregate" className="hover:text-yellow-500 transition-colors font-medium">Prestări Servicii Transport Basculantă</Link>
                         <Link href="/contact" className="hover:text-yellow-500 transition-colors font-medium">Contact</Link>
 
                         {/* Buton Apelare Desktop */}
@@ -70,7 +70,7 @@ export default function Header() {
                             Excavații CAT
                         </Link>
                         <Link href="/servicii/transport-agregate" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 rounded-md text-base font-medium hover:bg-slate-700 hover:text-yellow-500">
-                            Basculantă & Agregate
+                            Transport Autobasculabil
                         </Link>
                         <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 rounded-md text-base font-medium hover:bg-slate-700 hover:text-yellow-500">
                             Contact
