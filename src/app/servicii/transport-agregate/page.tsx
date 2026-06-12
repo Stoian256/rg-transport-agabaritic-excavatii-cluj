@@ -129,7 +129,7 @@ export default function TransportAgregatePage() {
                     {/* Preț */}
                     <div className="text-center py-4 border-t border-b border-gray-100">
                         <p className="text-gray-500 text-sm uppercase tracking-wider font-semibold">Tarif de închiriere utilaj</p>
-                        <p className="text-3xl font-black text-slate-900 mt-1">De la 2000 lei <span className="text-lg font-normal text-gray-500">+ TVA / zi</span></p>
+                        <p className="text-3xl font-black text-slate-900 mt-1"> 2000 lei <span className="text-lg font-normal text-gray-500">+ TVA / zi</span></p>
                     </div>
 
                     {/* Call to Action */}
