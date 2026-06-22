@@ -160,6 +160,57 @@ export default function TransportAgabariticPage() {
                     {/*    </div>*/}
                     {/*</div>*/}
                     {/*/!* --- FINAL CARUSEL --- *!/*/}
+                    {/* --- CARUSEL DINAMIC PROIECTE --- */}
+                    <div className="pt-8 pb-4">
+                        <h3 className="text-2xl font-bold text-slate-800 mb-2">Galerie Lucrări: Capabilități de Transport</h3>
+                        <p className="text-gray-600 mb-6">Câteva dintre utilajele și structurile mutate de noi în condiții de maximă siguranță.</p>
+
+                        {/* Containerul cu Scroll Orizontal */}
+                        <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory hide-scrollbar" style={{ scrollbarWidth: 'none' }}>
+
+                            {/* Slide 1: Excavator */}
+                            <div className="snap-center shrink-0 w-80 sm:w-96 flex flex-col group">
+                                <div className="h-64 w-full relative rounded-2xl overflow-hidden mb-4 shadow-sm border border-gray-100">
+                                    <Image src="/utilaje/1-transport-utilaje-platforma.jpeg" alt="Transport excavator pe platforma" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">Utilaje Grele</div>
+                                </div>
+                                <h4 className="font-bold text-lg text-slate-800">Relocare Excavații</h4>
+                                <p className="text-sm text-gray-600 mt-1">Încărcarea și ancorarea profesională a unui excavator pentru relocarea pe un nou șantier.</p>
+                            </div>
+
+                            {/* Slide 2: Capacitate */}
+                            <div className="snap-center shrink-0 w-80 sm:w-96 flex flex-col group">
+                                <div className="h-64 w-full relative rounded-2xl overflow-hidden mb-4 shadow-sm border border-gray-100">
+                                    <Image src="/utilaje/2-platforma-man-26t.jpeg" alt="Platforma MAN 26 tone" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">26 Tone</div>
+                                </div>
+                                <h4 className="font-bold text-lg text-slate-800">Capacitate Superioară</h4>
+                                <p className="text-sm text-gray-600 mt-1">Platformă robustă, pregătită pentru sarcini utile mari și rute naționale lungi.</p>
+                            </div>
+
+                            {/* Slide 3: Containere */}
+                            <div className="snap-center shrink-0 w-80 sm:w-96 flex flex-col group">
+                                <div className="h-64 w-full relative rounded-2xl overflow-hidden mb-4 shadow-sm border border-gray-100">
+                                    <Image src="/utilaje/3-transport-containere-santier.jpeg" alt="Transport containere modulare" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">Structuri Modulare</div>
+                                </div>
+                                <h4 className="font-bold text-lg text-slate-800">Transport Containere</h4>
+                                <p className="text-sm text-gray-600 mt-1">Mutarea containerelor de șantier, a barăcilor sau a structurilor metalice voluminoase.</p>
+                            </div>
+
+                            {/* Slide 4: Siguranta */}
+                            <div className="snap-center shrink-0 w-80 sm:w-96 flex flex-col group">
+                                <div className="h-64 w-full relative rounded-2xl overflow-hidden mb-4 shadow-sm border border-gray-100">
+                                    <Image src="/utilaje/4-transport-agabaritic-national.jpeg" alt="Transport utilaje national" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">Național</div>
+                                </div>
+                                <h4 className="font-bold text-lg text-slate-800">Siguranță pe Traseu</h4>
+                                <p className="text-sm text-gray-600 mt-1">Garantăm integritatea echipamentelor transportate și respectarea timpilor de livrare.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    {/* --- FINAL CARUSEL --- */}
                     {/* Banner Avantaje Transport Agabaritic */}
                     <div className="bg-yellow-50 border-2 border-dashed border-yellow-400 p-6 rounded-2xl text-center">
                         <h4 className="font-bold text-slate-900 text-lg mb-2">Specializați în Transport Greu și Utilaje</h4>
