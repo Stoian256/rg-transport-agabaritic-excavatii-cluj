@@ -72,7 +72,7 @@ export default function TransportAgregatePage() {
                     <div>
                         <h2 className="text-2xl font-bold text-slate-800 mb-4">Soluții Logistice cu Autobasculantă Mercedes (7.5 Tone)</h2>
                         <p className="text-gray-600 leading-relaxed text-lg">
-                            Aprovizionarea eficientă a șantierului este cheia oricărei lucrări de succes. Cu autobasculanta noastră Mercedes Atego de 7.5 tone, asigurăm un echilibru perfect între **capacitate generoasă de încărcare** și **agilitate urbană**. Putem livra materiale sau evacua deșeuri direct la ușa ta, chiar și în cartierele din Cluj unde mașinile de mare tonaj au restricții de gabarit.
+                            Aprovizionarea eficientă a șantierului este cheia oricărei lucrări de succes. Cu autobasculanta noastră Mercedes Atego de 7.5 tone, asigurăm un echilibru perfect între <strong className="font-bold text-slate-800">capacitate generoasă de încărcare</strong> și <strong className="font-bold text-slate-800">agilitate urbană</strong>. Putem livra materiale sau evacua deșeuri direct la ușa ta, chiar și în cartierele din Cluj unde mașinile de mare tonaj au restricții de gabarit.
                         </p>
                     </div>
 

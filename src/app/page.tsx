@@ -13,7 +13,7 @@ export default function Home() {
                 {/* Imaginea de fundal optimizată */}
                 <div className="absolute inset-0 z-0 opacity-40">
                     <Image
-                        src="/utilaje/platforma-incarcata.jpeg"
+                        src="/utilaje/excavator-si-basculata.jpeg"
                         alt="Transport agabaritic și utilaje în Cluj-Napoca"
                         fill
                         className="object-cover object-center"
@@ -24,11 +24,11 @@ export default function Home() {
                 {/* Conținutul text peste imagine */}
                 <div className="relative z-10">
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-4xl mx-auto leading-tight drop-shadow-lg">
-                        Transport Agabaritic și Închirieri Utilaje în <span
+                        Lucrări de Excavații și Închirieri Utilaje în <span
                         className="text-yellow-500">Cluj-Napoca</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-100 mb-10 max-w-3xl mx-auto drop-shadow-md font-medium">
-                        Platformă MAN de 26 tone pentru transport utilaje agricole și de construcții. Săpături fine,
+                        Executăm săpături rezidențiale, decopertări, profilare drumuri și terasamente de anvergură. Săpături fine,
                         transport pământ, balast, piatră și agregat. Intervenții rapide, direct pe șantierul tău.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -68,32 +68,6 @@ export default function Home() {
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-                    {/* Platforma MAN */}
-                    <div
-                        className="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl transition-all duration-300 group flex flex-col">
-                        <div className="h-56 rounded-xl mb-6 overflow-hidden relative bg-slate-100">
-                            <Image
-                                src="/utilaje/platforma-man-26-tone.jpeg"
-                                alt="Platforma MAN 26 tone transport utilaje Cluj"
-                                fill
-                                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div
-                                className="absolute top-4 left-4 bg-slate-900 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
-                                26 Tone
-                            </div>
-                        </div>
-                        <h3 className="text-2xl font-bold mb-2 text-slate-800">Platformă MAN</h3>
-                        <h4 className="text-sm font-bold text-yellow-600 mb-4 uppercase tracking-wider">Transport
-                            Agabaritic</h4>
-                        <ul className="text-gray-600 mb-6 space-y-2 flex-grow">
-                            <li>✓ Transport utilaje agricole și construcții</li>
-                            <li>✓ Relocare containere de șantier</li>
-                            <li>✓ Acoperire locală (Cluj) și Națională</li>
-                            <li>✓ Siguranță maximă pe timpul transportului</li>
-                        </ul>
-                    </div>
 
                     {/* Excavator CAT */}
                     <div
@@ -147,6 +121,31 @@ export default function Home() {
                         </ul>
                     </div>
 
+                    {/* Card 3 (NOU): Lucrări de Anvergură / Flota Parteneri */}
+                    <div
+                        className="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div className="h-56 rounded-xl mb-6 overflow-hidden relative bg-slate-100">
+                            <Image
+                                src="/utilaje/terasiere.jpeg"
+                                alt="Proiect anvergura excavator 18T"
+                                fill
+                                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div
+                                className="absolute top-4 left-4 bg-slate-900 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
+                                Flotă parteneri
+                            </div>
+                        </div>
+                        <h3 className="text-2xl font-bold mb-2 text-slate-800">Lucrări de Mare Anvergură</h3>
+                        <h4 className="text-sm font-bold text-yellow-600 mb-4 uppercase tracking-wider">Terasamente Grele</h4>
+                        <ul className="text-gray-600 mb-6 space-y-2 flex-grow">
+                            <li>✓ Excavații și săpături generale mai</li>
+                            <li>✓ Decopertări masive și nivelări industriale</li>
+                            <li>✓ Amenajare drumuri forestiere și agricole</li>
+                            <li>✓ Compactare straturi suport</li>
+                            <li>✓ Evacuări volume mari</li>
+                        </ul>
+                    </div>
                 </div>
 
                 {/* --- ADAUGĂ ACEST BLOC NOU DE AICI --- */}
@@ -199,7 +198,7 @@ export default function Home() {
                 <div className="mt-24 pt-12 border-t border-gray-200">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-                            Imagini din Teren. <span className="text-yellow-500">Lucrări Reale.</span>
+                            Portofoliu Lucrări. <span className="text-yellow-500">Direct de pe Șantier.</span>
                         </h2>
                         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
                             De la fundații rezidențiale de finețe, până la drumuri și infrastructură grea. Faptele și rezultatele vorbesc pentru noi.
@@ -208,120 +207,8 @@ export default function Home() {
 
                     {/* Grid de 6 imagini */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {/* --- SECTIUNEA 5: TRANSPORT, LOGISTICĂ ȘI EVACUĂRI --- */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-transport-utilaje-platforma.jpeg" alt="Transport utilaje cu platforma" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Logistică</p>
-                                <h4 className="text-white font-bold text-xl">Transport Platformă</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/2-platforma-man-26t.jpeg" alt="Platforma MAN 26 Tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Logistică</p>
-                                <h4 className="text-white font-bold text-xl">Platformă MAN 26 Tone</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/3-transport-containere-santier.jpeg" alt="Transport containere santier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Logistică</p>
-                                <h4 className="text-white font-bold text-xl">Transport Containere Șantier</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/4-transport-agabaritic-national.jpeg" alt="Transport agabaritic national" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Logistică</p>
-                                <h4 className="text-white font-bold text-xl">Transport Agabaritic Național</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-basculanta-mercedes-75t.jpeg" alt="Basculanta Mercedes 7.5 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Materiale</p>
-                                <h4 className="text-white font-bold text-xl">Livrări Basculantă 7.5T</h4>
-                            </div>
-                        </div>
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/3-montaj-fosa-septica.jpeg" alt="Montaj fosa septica" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1"></p>
-                                <h4 className="text-white font-bold text-xl">Montaj fosa septica</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 2 */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente si decopertari cu excavator 18 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Terasamente</p>
-                                <h4 className="text-white font-bold text-xl">Decopertări și Nivelări Masive</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 3 */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-drum-decoperta.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare drum - decoperta</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 3 */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/2-drum.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare drum</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 3 */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/7-drum.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare drum</h4>
-                            </div>
-                        </div>
 
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/8-drum2.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Compactare-drum</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/9-drum.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Compactare-drum</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 4 */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/sapaturi-fundatii-rezidentiale.jpeg" alt="Sapaturi fundatii case Cluj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -330,8 +217,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Săpături Generale și Fundații</h4>
                             </div>
                         </div>
-
-                        {/* Poza 5 */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/sapaturi.jpeg" alt="Demolari mecanizate si evacuare moloz" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -340,6 +225,39 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Evacuare și transport</h4>
                             </div>
                         </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/sapatura-generala.jpeg" alt="Sapatura de precizie pentru fundatie casa" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Săpături generale</p>
+                                <h4 className="text-white font-bold text-xl">Săpături Fundații</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/2-sapatura-fundatie-casa.jpeg" alt="Sapatura exacta fundatie casa" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpătură Fundație Casă</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/1-sapatura-fundatie-casa.jpeg" alt="Sapatura de precizie pentru fundatie casa" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpături Fundații</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/3-sapatura-fundatie-casa.jpeg" alt="Sapatura fundatie casa finalizata" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Șanțuri Fundații</h4>
+                            </div>
+                        </div>
+
 
                         {/* Poza 6 */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
@@ -370,112 +288,94 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Compactare Straturi Suport</h4>
                             </div>
                         </div>
-                        {/* Poza 1: Amenajare Drum (Geotextil) */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amanajare-drum-2.jpeg" alt="Amenajare drum cu piatra si geotextil" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare Drumuri</h4>
-                            </div>
-                        </div>
 
-                        {/* Poza 2: Terasamente 18 tone */}
+
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente si excavatii de volum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/sapatura-generala-de-anvergura.jpeg" alt="Sapatura de anvergura" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Terasamente</p>
-                                <h4 className="text-white font-bold text-xl">Săpături de Mare Volum</h4>
+                                <h4 className="text-white font-bold text-xl">Săpături de Anvergură</h4>
                             </div>
                         </div>
-
-
-
-                        {/* Poza 4: Sapatura Fundatie */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-sapatura-fundatie-casa.jpeg" alt="Sapatura de precizie pentru fundatie casa" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpături Fundații</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 5: Sant Retele */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-sant-retele-utilitati.jpeg" alt="Sapatura sant retele utilitati" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Edilitar</p>
-                                <h4 className="text-white font-bold text-xl">Șanțuri pentru Utilități</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 9: Montaj Fosa */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-montaj-fosa-septica.jpeg" alt="Montaj fosa septica si drenaj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Sapături reșele apa,curent,pluviale</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 1 */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-drum-forestier.jpeg" alt="Amenajare drum forestier Cluj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare Drum Forestier</h4>
-                            </div>
-                        </div>
-
-                        {/* Poza 6: Transport Platforma */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/1-transport-utilaje-platforma.jpeg" alt="Transport utilaje grele cu platforma" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Logistică</p>
-                                <h4 className="text-white font-bold text-xl">Transport Utilaje</h4>
-                            </div>
-                        </div>
-
-
-
-                        {/* Poza 8: Incarcare 8x4 */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/2-incarcare-basculanta-8x4.jpeg" alt="Excavator incarcand basculanta 8x4" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Săpături</p>
-                                <h4 className="text-white font-bold text-xl">Excavator si Autobasculantă mari</h4>
+                                <h4 className="text-white font-bold text-xl">Săpături de Anvergură</h4>
                             </div>
                         </div>
-
-
-
-                        {/* Poza 10: Drum Forestier */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md lg:col-span-2 xl:col-span-1">
-                            <Image src="/utilaje/drum-forestier-5.jpeg" alt="Amenajare drum forestier nou" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Terasări</p>
-                                <h4 className="text-white font-bold text-xl">Drumuri Forestiere</h4>
-                            </div>
-                        </div>
-
-                        {/* --- SECTIUNEA 1: DRUMURI ȘI INFRASTRUCTURĂ --- */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-drum-decoperta-1.jpeg" alt="Decopertare drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/sapatura-generala-cu-fundatie.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri</p>
-                                <h4 className="text-white font-bold text-xl">Decopertare Traseu</h4>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpătură Generală cu Fundație</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/sapatura-generala-cu-fundatie-2.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpătură Generală cu Fundație</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/sapatura-generala-cu-fundatie-3.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/sapatura-generala-cu-fundatie-4.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
+                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
                             </div>
                         </div>
 
+
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/umpluturi-elevatie-I.JPEG" alt="Umpluturi elevatie pamant" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
+                                <h4 className="text-white font-bold text-xl">Umpluturi Elevație</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/umpluturi-elevatie-2.JPEG" alt="Umpluturi elevatie pamant" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
+                                <h4 className="text-white font-bold text-xl">Umpluturi Elevație</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/umpluturi-elevatie-cu-drenaj-0.JPEG" alt="Umplutura elevatie cu sistem drenaj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
+                                <h4 className="text-white font-bold text-xl">Elevații și Sisteme Drenaj</h4>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/1-drum-decoperta.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare drum - decoperta</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-strat-geotextil.jpeg" alt="Aplicare strat geotextil drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -484,17 +384,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Aplicare Strat Geotextil</h4>
                             </div>
                         </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/5-drum.jpeg" alt="Aplicare strat geotextil drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri</p>
-                                <h4 className="text-white font-bold text-xl">Aplicare Strat Geotextil</h4>
-                            </div>
-                        </div>
-
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-umplutura-cu-balast.jpeg" alt="Umplutura cu balast pentru drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -503,7 +392,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Umplutură cu Balast</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/4-drum.jpeg" alt="Umplutura cu balast pentru drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -512,7 +400,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Umplutură cu Balast</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/6-drum.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -523,6 +410,17 @@ export default function Home() {
                         </div>
 
 
+
+
+
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/8-drum2.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajare Drum</p>
+                                <h4 className="text-white font-bold text-xl">Umplere si compactare</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/7-drum-pieturire.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -531,22 +429,38 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Pietruire și Nivelare</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amanajare-drum-2.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/9-drum.jpeg" alt="Compactare drum cu cilindru vibro" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Compactare drum</h4>
+                            </div>
+                        </div>
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/amenajare-drum.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare-drum</h4>
+                                <h4 className="text-white font-bold text-xl">Amenajare drum evacuări</h4>
                             </div>
                         </div>
 
+                        {/* Poza 1: Amenajare Drum (Geotextil) */}
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/amanajare-drum-2.jpeg" alt="Amenajare drum cu piatra si geotextil" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare Drumuri</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amanajare-drum-3.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare-drum</h4>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare drum</h4>
                             </div>
                         </div>
 
@@ -558,200 +472,80 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Amenajare drum</h4>
                             </div>
                         </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-drum.jpeg" alt="Pietruire drum utilaje" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                       {/* <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/5-drum.jpeg" alt="Aplicare strat geotextil drum" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare drum evacuări</h4>
+                                <h4 className="text-white font-bold text-xl">Aplicare Strat Geotextil</h4>
                             </div>
-                        </div>
+                        </div>*/}
 
+
+
+
+
+
+
+
+
+
+
+                        {/* Poza 1 */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/compactare-drum-cilindru.jpeg" alt="Compactare drum cu cilindru" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/amenajare-drum-forestier.jpeg" alt="Amenajare drum forestier Cluj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Stabilizare</p>
-                                <h4 className="text-white font-bold text-xl">Compactare cu Cilindrul</h4>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare Drum Forestier</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-drum-forestier.jpeg" alt="Amenajare drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/amenajare-drum-forestier-5.jpeg" alt="Finalizare drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri Forestiere</p>
-                                <h4 className="text-white font-bold text-xl">Profilare Drum Forestier</h4>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare Drum Forestier</h4>
                             </div>
                         </div>
-
-
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/amenajare-platforma-cabana.jpeg" alt="Amenajare platforma cabana" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare platfromă cabană</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-forestier-1.jpeg" alt="Amenajare drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri Forestiere</p>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
                                 <h4 className="text-white font-bold text-xl">Profilare Drum Forestier</h4>
                             </div>
                         </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                       {/* <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-forestier-2.jpeg" alt="Amenajare drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri Forestiere</p>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
                                 <h4 className="text-white font-bold text-xl">Profilare Drum Forestier</h4>
                             </div>
-                        </div>
+                        </div>*/}
 
 
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-forestier-3.jpeg" alt="Lucrari drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri Forestiere</p>
-                                <h4 className="text-white font-bold text-xl">Consolidare Versanți</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-drum-forestier-5.jpeg" alt="Finalizare drum forestier" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Drumuri Forestiere</p>
-                                <h4 className="text-white font-bold text-xl">Terasare Traseu Forestier</h4>
-                            </div>
-                        </div>
-
-                        {/* --- SECTIUNEA 2: SĂPĂTURI, FUNDAȚII ȘI ELEVAȚII --- */}
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-de-anvergura.jpeg" alt="Sapatura de anvergura" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Terasamente</p>
-                                <h4 className="text-white font-bold text-xl">Săpături de Anvergură</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente cu excavator 18 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Terasamente</p>
-                                <h4 className="text-white font-bold text-xl">Săpături Masive (18 Tone)</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-cu-fundatie.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-cu-fundatie-2.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-cu-fundatie-3.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-cu-fundatie-4.jpeg" alt="Sapatura generala si fundatii" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală Fundație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala.jpeg" alt="Sapatura generală" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-1.jpeg" alt="Sapatura generală" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Generală</h4>
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Amenajare drum forestier</h4>
                             </div>
                         </div>
 
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/sapatura-generala-cu-fundatie-2.jpeg" alt="Nivelare sapatura fundatie" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Aducere la Cotă Fundație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/2-sapatura-fundatie-casa.jpeg" alt="Sapatura exacta fundatie casa" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Săpătură Liniară Casă</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/3-sapatura-fundatie-casa.jpeg" alt="Sapatura fundatie casa finalizata" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Rezidențial</p>
-                                <h4 className="text-white font-bold text-xl">Șanțuri Fundații (Gata de turnare)</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/umpluturi-elevatie-I.JPEG" alt="Umpluturi elevatie pamant" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
-                                <h4 className="text-white font-bold text-xl">Umpluturi Elevație</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/umpluturi-elevatie-2.JPEG" alt="Umpluturi elevatie pamant" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
-                                <h4 className="text-white font-bold text-xl">Umpluturi Elevație</h4>
-                            </div>
-                        </div>
 
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/umpluturi-elevatie-cu-drenaj-0.JPEG" alt="Umplutura elevatie cu sistem drenaj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Construcții</p>
-                                <h4 className="text-white font-bold text-xl">Elevații și Sisteme Drenaj</h4>
-                            </div>
-                        </div>
 
                         {/* --- SECTIUNEA 3: AMENAJĂRI, CURȚI ȘI PISCINE --- */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
@@ -763,6 +557,7 @@ export default function Home() {
                             </div>
                         </div>
 
+
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-drum-de-acces-cabana.jpeg" alt="Amenajare drum acces cabana" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -771,16 +566,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Amenajare drum acces cabană</h4>
                             </div>
                         </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-platforma-cabana.jpeg" alt="Amenajare platforma cabana" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
-                                <h4 className="text-white font-bold text-xl">Amenajare platfromă cabană</h4>
-                            </div>
-                        </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amnajare-platforma-cabana-1.jpeg" alt="Amenajare platforma cabana" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -789,7 +574,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Amenajare platfromă cabană</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amanejare-platforma-cabana2.jpeg" alt="Amenajare platforma cabana" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -799,14 +583,6 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-alee-1.JPEG" alt="Pregatire alee curte" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
-                                <h4 className="text-white font-bold text-xl">Pregătire Alee</h4>
-                            </div>
-                        </div>
 
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-alee-1.JPEG" alt="Pregatire alee curte" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -816,16 +592,6 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Pregătire Alee</h4>
                             </div>
                         </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-alee-2.JPEG" alt="Pregatire alee curte" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
-                                <h4 className="text-white font-bold text-xl">Pregătire Alee</h4>
-                            </div>
-                        </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-alee-acces-garaj.jpeg" alt="Amenajare acces garaj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -844,6 +610,7 @@ export default function Home() {
                             </div>
                         </div>
 
+
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-platforma-parcare-1.jpeg" alt="Amenajare platforma parcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -852,16 +619,14 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Amenajare Platformă Parcare</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-platforma-parcare-2.jpeg" alt="Amenajare platforma parcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente si decopertari cu excavator 18 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
                                 <h4 className="text-white font-bold text-xl">Amenajare Platformă Parcare</h4>
                             </div>
                         </div>
-
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/amenajare-platforma-parcare-3.jpeg" alt="Amenajare platforma parcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -872,6 +637,14 @@ export default function Home() {
                         </div>
 
 
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/amenajare-piscina-2.jpeg" alt="Amenajare piscina lucrari" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
+                                <h4 className="text-white font-bold text-xl">Pregătire Teren Piscină</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/sapatura-generala-amenajare-piscina.jpeg" alt="Sapatura piscina curte" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -891,15 +664,6 @@ export default function Home() {
 
 
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-piscina-2.jpeg" alt="Amenajare piscina lucrari" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
-                                <h4 className="text-white font-bold text-xl">Pregătire Teren Piscină</h4>
-                            </div>
-                        </div>
-
                         {/* --- SECTIUNEA 4: INTUBĂRI VĂI, DRENAJE ȘI UTILITĂȚI --- */}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/intubare-vale-0.JPEG" alt="Start intubare vale" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -910,7 +674,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                       {/* <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/intubare-vale-1.JPEG" alt="Intubare vale montaj tevi" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -918,7 +682,7 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Poziționare Tuburi Corugate</h4>
                             </div>
                         </div>
-
+*/}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/intubare-vale-2.JPEG" alt="Intubare vale" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -974,7 +738,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                       {/* <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/intubare-vale-8.JPEG" alt="Intubare vale" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -982,13 +746,13 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Intubare Vale</h4>
                             </div>
                         </div>
-
+*/}
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/intubare-vale-9.JPEG" alt="Finalizare intubare vale si podet" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură Apă</p>
-                                <h4 className="text-white font-bold text-xl">Finalizare Intubare și Podeț</h4>
+                                <h4 className="text-white font-bold text-xl">Intubare Vale</h4>
                             </div>
                         </div>
 
@@ -1001,14 +765,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/drenuri-si-pluviale-1.JPEG" alt="Drenuri si pluviale sapaturi" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Edilitar</p>
-                                <h4 className="text-white font-bold text-xl">Drenuri și Ape Pluviale</h4>
-                            </div>
-                        </div>
+
 
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/drenuri-si-pluviale2.JPEG" alt="Drenuri si pluviale sapaturi" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -1029,6 +786,15 @@ export default function Home() {
                         </div>
 
 
+                        {/* Poza 5: Sant Retele */}
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/1-sant-retele-utilitati.jpeg" alt="Sapatura sant retele utilitati" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Edilitar</p>
+                                <h4 className="text-white font-bold text-xl">Șanțuri Rețele Utilități</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/3-sant-retele-utilitati.jpeg" alt="Sant retele utilitati" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
@@ -1037,35 +803,23 @@ export default function Home() {
                                 <h4 className="text-white font-bold text-xl">Șanțuri Rețele Utilități</h4>
                             </div>
                         </div>
-
+                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
+                            <Image src="/utilaje/1-montaj-fosa-septica.jpeg" alt="Montaj fosa septica si drenaj" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Infrastructură</p>
+                                <h4 className="text-white font-bold text-xl">Sapături reșele apa, curent, pluviale</h4>
+                            </div>
+                        </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
                             <Image src="/utilaje/3-montaj-fosa-septica.jpeg" alt="Montaj fosa septica" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Edilitar</p>
-                                <h4 className="text-white font-bold text-xl">Montaj Fosă Septică</h4>
+                                <h4 className="text-white font-bold text-xl">Săpături Fosă Septică</h4>
                             </div>
                         </div>
 
-
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/excavator-si-basculata.jpeg" alt="Excavator si basculanta la incarcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Evacuări</p>
-                                <h4 className="text-white font-bold text-xl">Încărcare și Evacuare Moloz</h4>
-                            </div>
-                        </div>
-
-                        <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/3-livrare-agregate-sort.jpeg" alt="Livrare agregate sort" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Materiale</p>
-                                <h4 className="text-white font-bold text-xl">Livrare Agregate și Sort</h4>
-                            </div>
-                        </div>
                     </div>
 
                 </div>

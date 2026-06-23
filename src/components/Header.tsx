@@ -23,7 +23,6 @@ export default function Header() {
                     {/* Meniu Desktop */}
                     <nav className="hidden md:flex space-x-8 items-center">
                         <Link href="/" className="hover:text-yellow-500 transition-colors font-medium">Acasă</Link>
-                        <Link href="/servicii/transport-agabaritic" className="hover:text-yellow-500 transition-colors font-medium">Transport Agabaritic</Link>
                         <Link href="/servicii/excavatii-cat" className="hover:text-yellow-500 transition-colors font-medium">Excavații CAT</Link>
                         <Link href="/servicii/transport-agregate" className="hover:text-yellow-500 transition-colors font-medium">Prestări Servicii Transport Basculantă</Link>
                         <Link href="/contact" className="hover:text-yellow-500 transition-colors font-medium">Contact</Link>
@@ -62,9 +61,6 @@ export default function Header() {
                     <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
                         <Link href="/" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 rounded-md text-base font-medium hover:bg-slate-700 hover:text-yellow-500">
                             Acasă
-                        </Link>
-                        <Link href="/servicii/transport-agabaritic" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 rounded-md text-base font-medium hover:bg-slate-700 hover:text-yellow-500">
-                            Transport Agabaritic
                         </Link>
                         <Link href="/servicii/excavatii-cat" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 rounded-md text-base font-medium hover:bg-slate-700 hover:text-yellow-500">
                             Excavații CAT

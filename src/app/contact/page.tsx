@@ -112,11 +112,11 @@ export default function ContactPage() {
                                     id="service"
                                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors bg-white"
                                 >
-                                    <option value="platforma">Transport Agabaritic (Platformă 26t)</option>
+
                                     <option value="excavator">Excavații / Demolări (CAT 5t)</option>
                                     <option value="basculanta">Transport Agregate (Basculantă)</option>
                                     <option value="pachet">Pachet utilaje (50% Reducere)</option>
-                                    <option value="altele">Altele</option>
+                                    <option value="altele">Utilaje tonaj mare - flotă parteneri</option>
                                 </select>
                             </div>
 

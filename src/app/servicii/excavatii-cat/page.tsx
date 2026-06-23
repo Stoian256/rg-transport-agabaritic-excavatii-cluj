@@ -50,7 +50,7 @@ export default function ExcavatiiCatPage() {
                 {/* Imagine Principală Serviciu */}
                 <div className="relative h-64 md:h-96 w-full bg-slate-900">
                     <Image
-                        src="/utilaje/excavator-cat-sapaturi.jpeg"
+                        src="/utilaje/sapatura-generala-cu-fundatie.jpeg"
                         alt="Excavator Caterpillar 5 tone efectuând săpături în Cluj"
                         fill
                         className="object-cover"
@@ -73,7 +73,7 @@ export default function ExcavatiiCatPage() {
                     <div>
                         <h2 className="text-2xl font-bold text-slate-800 mb-4">Servicii cu Excavator Caterpillar 5 Tone (cu Operator)</h2>
                         <p className="text-gray-600 leading-relaxed text-lg">
-                            Pentru lucrările care necesită **atenție la detalii, finețe și protejarea spațiului înconjurător**, excavatorul nostru CAT de 5 tone este soluția ideală. Are dimensiunile perfecte pentru a intra în curți rezidențiale sau spații înguste, dar dispune de puterea necesară pentru a finaliza rapid orice proiect de terasament sau infrastructură în Cluj.
+                            Pentru lucrările care necesită <strong className="font-bold text-slate-800">atenție la detalii, finețe și protejarea spațiului înconjurător</strong>, excavatorul nostru CAT de 5 tone este soluția ideală. Are dimensiunile perfecte pentru a intra în curți rezidențiale sau spații înguste, dar dispune de puterea necesară pentru a finaliza rapid orice proiect de terasament sau infrastructură în Cluj.
                         </p>
                     </div>
 
