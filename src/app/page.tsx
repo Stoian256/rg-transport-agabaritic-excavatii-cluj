@@ -612,7 +612,7 @@ export default function Home() {
 
 
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/amenajare-platforma-parcare-1.jpeg" alt="Amenajare platforma parcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente si decopertari cu excavator 18 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
@@ -620,7 +620,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md">
-                            <Image src="/utilaje/terasamente-excavator-18-tone.jpeg" alt="Terasamente si decopertari cu excavator 18 tone" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <Image src="/utilaje/amenajare-platforma-parcare-1.jpeg" alt="Amenajare platforma parcare" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-90"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                 <p className="text-yellow-400 font-bold text-sm uppercase tracking-wider mb-1">Amenajări Exterioare</p>
