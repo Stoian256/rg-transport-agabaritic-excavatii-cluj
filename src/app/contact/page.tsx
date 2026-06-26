@@ -84,62 +84,45 @@ export default function ContactPage() {
                     {/* Partea Dreaptă - Formular */}
                     <div className="p-8 md:p-12">
                         <h3 className="text-2xl font-bold text-slate-800 mb-6">Cere o ofertă rapidă</h3>
-                        <form className="space-y-6">
+                        <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
+
+                            {/* Inlocuieste cu cheia ta de la Web3Forms */}
+                            <input type="hidden" name="access_key" value="INTRODU_AICI_CHEIA_TA" />
 
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Numele tău / Firma</label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors"
-                                    placeholder="Ex: Ion Popescu"
-                                />
+                                <label className="block text-sm font-medium text-gray-700 mb-1">Numele tău / Firma</label>
+                                <input type="text" name="name" required className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 outline-none" placeholder="Ex: Ion Popescu" />
                             </div>
 
                             <div>
-                                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Număr de telefon</label>
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors"
-                                    placeholder="07..."
-                                />
+                                <label className="block text-sm font-medium text-gray-700 mb-1">Număr de telefon</label>
+                                <input type="tel" name="phone" required className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 outline-none" placeholder="07..." />
                             </div>
 
                             <div>
-                                <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">De ce serviciu ești interesat?</label>
-                                <select
-                                    id="service"
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors bg-white"
-                                >
-
+                                <label className="block text-sm font-medium text-gray-700 mb-1">De ce serviciu ești interesat?</label>
+                                <select name="service" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 outline-none bg-white">
                                     <option value="excavator">Excavații / Demolări (CAT 5t)</option>
+                                    <option value="fundatii">Săpături pentru fundații</option>
+                                    <option value="generale">Săpături generale</option>
+                                    <option value="retele">Săpături rețele</option>
+                                    <option value="drenuri">Săpături drenuri</option>
+                                    <option value="drum">Amenajare drum / drum forestier</option>
                                     <option value="basculanta">Transport Agregate (Basculantă)</option>
                                     <option value="pachet">Pachet utilaje (50% Reducere)</option>
-                                    <option value="altele">Utilaje tonaj mare - flotă parteneri</option>
+                                    <option value="pachet">Închirere utilaje</option>
+                                    <option value="altceva">Altceva</option>
                                 </select>
                             </div>
 
                             <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Detalii lucrare (Opțional)</label>
-                                <textarea
-                                    id="message"
-                                    rows={4}
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors resize-none"
-                                    placeholder="Locația lucrării, volumul estimat, perioada dorită..."
-                                ></textarea>
+                                <label className="block text-sm font-medium text-gray-700 mb-1">Detalii lucrare</label>
+                                <textarea name="message" rows={4} className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 outline-none" placeholder="Locația lucrării, volumul estimat..."></textarea>
                             </div>
 
-                            <button
-                                type="button"
-                                className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-lg transition-colors shadow-md"
-                            >
+                            <button type="submit" className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-lg transition-colors shadow-md">
                                 Trimite Cererea
                             </button>
-                            <p className="text-xs text-gray-500 text-center mt-2">
-                                *Acest formular este demonstrativ pentru versiunea curentă. Folosiți apelul telefonic pentru contact imediat.
-                            </p>
-
                         </form>
                     </div>
 
