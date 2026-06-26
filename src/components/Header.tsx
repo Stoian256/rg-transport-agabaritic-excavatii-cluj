@@ -44,11 +44,11 @@ export default function Header() {
                             <div className="absolute left-0 mt-2 w-72 bg-white text-slate-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 p-2">
                                 <Link href="/servicii/excavatii-cat" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Săpături Fundații & Rețele</Link>
                                 <Link href="/servicii/excavatii-cat" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Săpături Generale & Decopertări</Link>
-                                <Link href="/#servicii" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Terasamente Grele & Nivelări</Link>
+                                <Link href="/#terasamente-grele" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Terasamente Grele & Nivelări</Link>
                                 <Link href="/servicii/excavatii-cat" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Amenajări Drumuri & Forestiere</Link>
                                 <Link href="/servicii/excavatii-cat" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Amenajări Curți, Alei & Drenaje</Link>
                                 <Link href="/servicii/transport-agregate" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Transport Agregate & Evacuări</Link>
-                                <Link href="/#servicii" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Compactări</Link>
+                                <Link href="/#terasamente-grele" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Compactări</Link>
                                 <Link href="/" className="block px-4 py-2.5 hover:bg-slate-50 hover:text-yellow-600 transition-colors rounded-md text-sm font-medium">Închiriere Utilaje</Link>
                             </div>
                         </div>
@@ -115,11 +115,11 @@ export default function Header() {
                                 <div className="pl-6 space-y-1 mt-1 border-l border-slate-600 ml-3">
                                     <Link href="/servicii/excavatii-cat" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Săpături Fundații & Rețele</Link>
                                     <Link href="/servicii/excavatii-cat" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Săpături Generale & Decopertări</Link>
-                                    <Link href="/#servicii" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Terasamente Grele & Nivelări</Link>
+                                    <Link href="/#terasamente-grele" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Terasamente Grele & Nivelări</Link>
                                     <Link href="/servicii/excavatii-cat" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Amenajări Drumuri & Forestiere</Link>
                                     <Link href="/servicii/excavatii-cat" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Amenajări Curți, Alei & Drenaje</Link>
                                     <Link href="/servicii/transport-agregate" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Transport Agregate & Evacuări</Link>
-                                    <Link href="/#servicii" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Compactări</Link>
+                                    <Link href="/#terasamente-grele" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Compactări</Link>
                                     <Link href="/" onClick={closeMenu} className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-yellow-500">Închiriere Utilaje</Link>
                                 </div>
                             )}
