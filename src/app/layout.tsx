@@ -1,13 +1,38 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "../components/Header"; // Importăm Header-ul pe care tocmai l-am creat
+import Header from "../components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// SETĂRI SEO AVANSATE PENTRU NEXT.JS APP ROUTER
 export const metadata: Metadata = {
-    title: "Transport Agabaritic și Excavații Cluj-Napoca",
-    description: "Închiriere utilaje, transport platformă MAN 26 tone, excavator CAT 5 tone și basculantă. Intervenții rapide în județul Cluj și național.",
+    metadataBase: new URL("https://excavatii-cluj.ro"), // Schimbă cu domeniul final când îl cumperi
+    title: {
+        default: "Excavații, Terasamente și Săpături Fundații Cluj | R&G Company",
+        template: "%s | R&G Excavații Cluj"
+    },
+    description: "Firmă specializată în excavații, săpături fundații, terasamente, nivelări și transport agregate în Cluj-Napoca și împrejurimi. Închiriere excavator și basculantă.",
+    keywords: ["excavatii cluj", "sapaturi fundatii cluj", "terasamente cluj", "transport agregate cluj", "inchiriere excavator cluj", "amenajari curti cluj", "nivelare teren"],
+    openGraph: {
+        title: "Excavații și Terasamente Cluj | R&G Company",
+        description: "Servicii profesionale de săpături, terasamente și transport agregate în județul Cluj.",
+        url: "https://excavatii-cluj.ro", // Schimbă cu domeniul tău
+        siteName: "R&G Excavații Cluj",
+        locale: "ro_RO",
+        type: "website",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
 };
 
 export default function RootLayout({
@@ -18,19 +43,21 @@ export default function RootLayout({
     return (
         <html lang="ro" className="scroll-smooth">
         <body className={`${inter.className} bg-gray-50 text-slate-900`}>
-
-        {/* Header-ul adăugat aici va apărea pe toate paginile */}
         <Header />
 
         <main className="min-h-screen">{children}</main>
 
-        {/* Footer Minimalist */}
-        {/* Footer Oficial */}
-        <footer className="bg-slate-900 text-gray-400 py-8 text-center border-t border-slate-800 mt-12">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center space-y-2">
-                <p className="font-bold text-gray-300">R&G Company SRL</p>
-                <p className="text-sm">CUI: 22139540</p>
-                <p className="text-sm mt-4">© {new Date().getFullYear()} R&G Company SRL. Toate drepturile rezervate.</p>
+        <footer className="bg-slate-900 text-gray-400 py-10 text-center border-t border-slate-800 mt-12">
+            <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="text-left">
+                    <p className="font-bold text-white text-lg">R&G Company SRL</p>
+                    <p className="text-sm mt-1">CUI: 22139540</p>
+                    <p className="text-sm mt-1">Județul Cluj, România</p>
+                </div>
+                <div className="text-sm text-center md:text-right">
+                    <p>© {new Date().getFullYear()} Toate drepturile rezervate.</p>
+                    <p className="mt-1">Servicii profesionale de terasamente și excavații.</p>
+                </div>
             </div>
         </footer>
         </body>
