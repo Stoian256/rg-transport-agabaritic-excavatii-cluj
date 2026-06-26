@@ -126,6 +126,7 @@ export default function Home() {
 
                     {/* Card 3 (NOU): Lucrări de Anvergură / Flota Parteneri */}
                     <div
+                        id="terasamente-grele"
                         className="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl transition-all duration-300 group flex flex-col">
                         <div className="h-56 rounded-xl mb-6 overflow-hidden relative bg-slate-100">
                             <Image
