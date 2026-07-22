@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type {Metadata} from "next";
+import {Inter} from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({subsets: ["latin"]});
 
 // SETĂRI SEO AVANSATE PENTRU NEXT.JS APP ROUTER
 export const metadata: Metadata = {
@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     title: {
         default: "Excavații, Terasamente și Săpături Fundații Cluj | R&G Company",
         template: "%s | R&G Excavații Cluj"
+    },
+    icons: {
+        icon: {
+            url: '/favicon.png', // Asigură-te că e aici
+        }
     },
     description: "Firmă specializată în excavații, săpături fundații, terasamente, nivelări și transport agregate în Cluj-Napoca și împrejurimi. Închiriere excavator și basculantă.",
     keywords: ["excavatii cluj", "sapaturi fundatii cluj", "terasamente cluj", "transport agregate cluj", "inchiriere excavator cluj", "amenajari curti cluj", "nivelare teren"],
@@ -22,6 +27,7 @@ export const metadata: Metadata = {
         locale: "ro_RO",
         type: "website",
     },
+
     robots: {
         index: true,
         follow: true,
@@ -43,7 +49,7 @@ export default function RootLayout({
     return (
         <html lang="ro" className="scroll-smooth">
         <body className={`${inter.className} bg-gray-50 text-slate-900`}>
-        <Header />
+        <Header/>
 
         <main className="min-h-screen">{children}</main>
 
